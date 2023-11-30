@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Graduate;
+    src: url(./fonts/Graduate.ttf);
+}
+
+@font-face {
+    font-family: Monoton;
+    src: url(./fonts/Monoton.ttf);
+}
+
+@font-face {
+    font-family: PlaypenSans;
+    src: url(./fonts/PlaypenSans.ttf);
+}
+
+@font-face {
+    font-family: Salsa;
+    src: url(./fonts/Salsa.ttf);
+}
+
+@font-face {
+    font-family: NotoSansTamil;
+    src: url(./fonts/NotoSansTamil.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins.ttf);
+}
+
+
+#options {
+    display: flex;
+    padding: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 13vw;
+}
+
+#logo {
+    width: 120px;
+    height: 30px;
+}
+
+input:checked+label {
+    background-color: #d3e3fd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fontsize {
+    width: 100px;
+}
+
+input[type="color"] {
+    width: 10px;
+    height: 0;
+    visibility: hidden;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]+label {
+    padding: 0px 10px 0px;
+}
+
+#cell-state {
+    display: flex;
+    gap: 20px;
+    padding: 10px 100px;
+    align-items: center;
+}
+
+#cell-state div {
+    padding: 11px;
+    background-color: #d3e3fd;
+    border-radius: 5px;
+}
+
+#cell-state input {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* #cell-state input:focus {
+    display: none;
+} */
+
+#download{
+    cursor: pointer;
+    font-size: 30px !important;
+    margin-left: 18px;
+    color: blue;
+}
